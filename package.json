@@ -1,12 +1,12 @@
 {
-  "name": "dsh-usage-ru",
+  "name": "dsh-deepseek-usage-ru",
   "version": "0.1.9-ru.1",
   "description": "Русская сборка панели расхода DeepSeek для DSH: баланс, официальный счёт, воркспейс и сессия.",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chukhlebovv-debug/dsh-usage-ru.git"
+    "url": "git+https://github.com/chukhlebovv-debug/dsh-deepseek-usage-ru.git"
   },
   "exports": {
     ".": "./src/index.js",
@@ -74,6 +74,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "homepage": "https://github.com/chukhlebovv-debug/dsh-usage-ru#readme",
+  "homepage": "https://github.com/chukhlebovv-debug/dsh-deepseek-usage-ru#readme",
   "author": "fork maintained by chukhlebovv-debug; original by sdiwen.chen"
 }

@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-id: "dsh-usage-ru",
+id: "dsh-deepseek-usage-ru",
 factory: function (require) {
 var module = { exports: {} };
 var exports = module.exports;

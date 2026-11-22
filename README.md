@@ -1,4 +1,4 @@
-# dsh-usage-ru
+# dsh-deepseek-usage-ru
 
 Панель расхода и баланса DeepSeek для DeepSeek Harness — **русская сборка**.
 Форк проекта [sdiwenchen-lang/DeepSeek-Usage](https://github.com/sdiwenchen-lang/DeepSeek-Usage) (MIT).
@@ -16,10 +16,10 @@
 **Из магазина DSH.** Добавьте адрес индекса этого репозитория в источники плагинов:
 
 ```
-https://raw.githubusercontent.com/chukhlebovv-debug/dsh-usage-ru/main/index.json
+https://raw.githubusercontent.com/chukhlebovv-debug/dsh-deepseek-usage-ru/main/index.json
 ```
 
-Настройки → Плагины → источники → добавить адрес; затем вкладка Discover → `dsh-usage-ru` → установить.
+Настройки → Плагины → источники → добавить адрес; затем вкладка Discover → `dsh-deepseek-usage-ru` → установить.
 Перезапустить DeepSeek Harness.
 
 **Вручную.** Скачайте репозиторий и запустите:

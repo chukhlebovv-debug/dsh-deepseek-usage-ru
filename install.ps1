@@ -1,5 +1,5 @@
 ﻿<#
-  Установка плагина dsh-usage-ru (русская сборка панели расхода DeepSeek).
+  Установка плагина dsh-deepseek-usage-ru (русская сборка панели расхода DeepSeek).
   Кладёт пакет в профиль DSH, прописывает в зависимости и бандлы.
   С ключом -ReplaceStore убирает магазинную версию deepseek-usage,
   чтобы не было двух панелей и конфликта маршрутов.
@@ -52,7 +52,7 @@ if ($ReplaceStore) {
         $asideMeta = Join-Path $aside "package.json"
         if (Test-Path $asideMeta) { Copy-Item $asideMeta (Join-Path $here ("deepseek-usage-" + (Get-Date -Format "yyyyMMdd-HHmmss") + ".json")) -Force }
         New-Item -ItemType File -Path (Join-Path $aside "DISABLED.txt") -Force | Out-Null
-        Set-Content -Path (Join-Path $aside "DISABLED.txt") -Value "Отключено при переходе на dsh-usage-ru. Файлы сохранены, плагин не загружается." -Encoding UTF8
+        Set-Content -Path (Join-Path $aside "DISABLED.txt") -Value "Отключено при переходе на dsh-deepseek-usage-ru. Файлы сохранены, плагин не загружается." -Encoding UTF8
       }
     } else {
       Write-Host "удаляю магазинную версию: $oldDir"

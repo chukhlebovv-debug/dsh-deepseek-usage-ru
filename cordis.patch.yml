@@ -31,7 +31,7 @@
 # "not a client package", and the panel silently never loads.
 - insert:
     - id: deepseek-usage-panel
-      name: dsh-usage-ru
+      name: dsh-deepseek-usage-ru
       config:
         xAppVersion: "0.1.0"
         requestTimeoutMs: 10000
