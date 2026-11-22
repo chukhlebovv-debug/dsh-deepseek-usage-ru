@@ -16,7 +16,7 @@
   },
   "plugins": [
     {
-      "name": "dsh-usage-ru",
+      "name": "dsh-deepseek-usage-ru",
       "title": {
         "en": "DeepSeek Usage (Russian)",
         "zh": "DeepSeek 用量（俄语版）",
@@ -28,9 +28,9 @@
         "ru": "Баланс по всем кошелькам, официальный счёт, стоимость воркспейса и сессии, курс ЦБ. Интерфейс на русском."
       },
       "icon": "icon.svg",
-      "homepage": "https://github.com/chukhlebovv-debug/dsh-usage-ru",
+      "homepage": "https://github.com/chukhlebovv-debug/dsh-deepseek-usage-ru",
       "repository": {
-        "url": "https://github.com/chukhlebovv-debug/dsh-usage-ru"
+        "url": "https://github.com/chukhlebovv-debug/dsh-deepseek-usage-ru"
       },
       "metadata": {
         "keywords": [
@@ -47,8 +47,8 @@
           "publishTimestamp": 1795381800,
           "source": {
             "type": "git",
-            "url": "https://github.com/chukhlebovv-debug/dsh-usage-ru",
-            "commit": "cd4508796be70e01bbaba83e202143747d97ca96"
+            "url": "https://github.com/chukhlebovv-debug/dsh-deepseek-usage-ru",
+            "commit": "509536d853480ca01adeb83e9cdff420adacbeb9"
           },
           "engines": {
             "dsh": ">=0.2.0-0 <0.3.0"
