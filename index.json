@@ -48,7 +48,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/chukhlebovv-debug/dsh-deepseek-usage-ru",
-            "commit": "509536d853480ca01adeb83e9cdff420adacbeb9"
+            "commit": "7f929bef3d49b33fdda4ef4fb8e3327e39d81b1a"
           },
           "engines": {
             "dsh": ">=0.2.0-0 <0.3.0"
