@@ -1,0 +1,79 @@
+{
+  "name": "dsh-usage-ru",
+  "version": "0.1.9-ru.1",
+  "description": "Русская сборка панели расхода DeepSeek для DSH: баланс, официальный счёт, воркспейс и сессия.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukhlebovv-debug/dsh-usage-ru.git"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./plugin": "./src/index.js",
+    "./client": "./src/client.js",
+    "./account": "./src/account.js",
+    "./apiclient": "./src/apiclient.js",
+    "./cache": "./src/cache.js",
+    "./http": "./src/http.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "icon.svg",
+    "locale",
+    "cordis.patch.yml",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.19.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "pack:check": "node scripts/check-package.js",
+    "bundle:check": "node -e \"const fs=require('fs');const s=fs.statSync('src/client.js').size;if(s>126976){console.error('bundle too large: '+s+'B > 126976B');process.exit(1)}console.log('bundle OK: '+s+'B');\""
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "usage",
+    "balance",
+    "russian"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/schemastery": "^3.18.1",
+    "react": "^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/schemastery": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/schemastery": "^3.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "homepage": "https://github.com/chukhlebovv-debug/dsh-usage-ru#readme",
+  "author": "fork maintained by chukhlebovv-debug; original by sdiwen.chen"
+}
