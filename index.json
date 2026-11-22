@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DeepSeek Usage (Russian)",
+    "zh": "DeepSeek 用量（俄语版）",
+    "ru": "Панель расхода DeepSeek — русская сборка"
+  },
+  "description": {
+    "en": "Russian-language build of the DeepSeek usage panel for DSH: balance over all wallets, official bill, workspace and session cost, CBR exchange rate.",
+    "zh": "DSH 的 DeepSeek 用量面板俄语版本：全部钱包余额、官方账单、工作区与会话开销、俄罗斯央行汇率。",
+    "ru": "Русская сборка панели расхода DeepSeek для DSH: баланс по всем кошелькам, официальный счёт, стоимость воркспейса и сессии, курс ЦБ РФ."
+  },
+  "metadata": {
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-usage-ru",
+      "title": {
+        "en": "DeepSeek Usage (Russian)",
+        "zh": "DeepSeek 用量（俄语版）",
+        "ru": "Расход DeepSeek — русский"
+      },
+      "description": {
+        "en": "Balance over all wallets, official bill, workspace and session cost, CBR exchange rate. Russian UI.",
+        "zh": "全部钱包余额、官方账单、工作区与会话开销、央行汇率，俄语界面。",
+        "ru": "Баланс по всем кошелькам, официальный счёт, стоимость воркспейса и сессии, курс ЦБ. Интерфейс на русском."
+      },
+      "icon": "icon.svg",
+      "homepage": "https://github.com/chukhlebovv-debug/dsh-usage-ru",
+      "repository": {
+        "url": "https://github.com/chukhlebovv-debug/dsh-usage-ru"
+      },
+      "metadata": {
+        "keywords": [
+          "usage",
+          "balance",
+          "billing",
+          "russian",
+          "cbr"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.9-ru.1",
+          "publishTimestamp": 1795381800,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/chukhlebovv-debug/dsh-usage-ru",
+            "commit": "cd4508796be70e01bbaba83e202143747d97ca96"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-0 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
